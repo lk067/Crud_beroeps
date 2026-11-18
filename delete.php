@@ -35,7 +35,7 @@ if (!$anime) {
 
 <form method="post">
     <input type="submit" name="ja" value="Ja, verwijderen" class="knop rood">
-    <a href="index.php">Nee</a>
+    <a href="read.php">Nee</a>
 </form>
 
 </body>
