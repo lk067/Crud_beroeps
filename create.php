@@ -18,7 +18,7 @@ if (isset($_POST['opslaan'])) {
         $stmt = $db->prepare($sql);
         $stmt->execute([$titel, $genre, $afleveringen, $jaar, $studio]);
 
-        header("Location: index.php");
+        header("Location: read.php");
         exit;
     }
 }
@@ -54,7 +54,7 @@ if (isset($_POST['opslaan'])) {
 
     <br><br>
     <input type="submit" name="opslaan" value="Opslaan" class="knop">
-    <a href="index.php">Terug</a>
+    <a href="read.php">Terug</a>
 </form>
 
 </body>
